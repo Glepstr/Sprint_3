@@ -9,11 +9,11 @@ class OnlineSalesRegisterCollector:
         self.__tax_rate = {'чипсы': 20, 'кола': 20, 'печенье': 20, 'молоко': 10, 'кефир': 10}
 
     @property
-    def get_name_items(self):
+    def name(self):
         return self.__name_items
     
     @property
-    def get_number_items(self):
+    def number(self):
         return self.__number_items
     
     def add_item_to_cheque(self, name):
