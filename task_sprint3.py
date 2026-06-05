@@ -37,9 +37,9 @@ class OnlineSalesRegisterCollector:
         for key in self.__name_items:
             total.append(self.__item_price[key])
         if len(self.__name_items) > 10:
-            return print(sum(total) * 0.9)
+            return sum(total) * 0.9
         else:
-            return print(sum(total))
+            return sum(total)
 
     def twenty_percent_tax_calculation(self):
         twenty_percent_tax = []
