@@ -68,7 +68,7 @@ class OnlineSalesRegisterCollector:
             return sum(total) * 0.1
     
     def total_tax(self):
-        return print(self.ten_percent_tax_calculation() + self.twenty_percent_tax_calculation())
+        return self.ten_percent_tax_calculation() + self.twenty_percent_tax_calculation()
 
     def get_telephone_number(self, telephone_number):
         if type(telephone_number) != int:
